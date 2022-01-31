@@ -2,6 +2,7 @@
   "name": "PJ_FOX_GAME",
   "version": "1.0.0",
   "description": "a digital pet game",
+  "homepage": "http://yinanazhou.github.io/fox-game",
   "default": "src/index.html",
   "scripts": {
     "build": "parcel build src/index.html",
