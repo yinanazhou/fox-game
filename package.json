@@ -1,11 +1,13 @@
 {
   "name": "PJ_FOX_GAME",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a digital pet game",
+  "default": "src/index.html",
   "scripts": {
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +20,8 @@
   },
   "browserslist": [
     "last 2 Firefox versions"
-  ]
+  ],
+  "dependencies": {
+    "parcel": "^2.2.1"
+  }
 }
